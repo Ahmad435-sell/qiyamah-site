@@ -1,0 +1,30 @@
+{
+  "name": "qiyamah-site",
+  "version": "1.0.0",
+  "description": "Признаки Судного дня, 52 признака",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmad435-sell/qiyamah-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ahmad435-sell/qiyamah-site/issues"
+  },
+  "homepage": "https://Ahmad435-sell.github.io/qiyamah-site",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "vite": "^7.3.0"
+  }
+}
